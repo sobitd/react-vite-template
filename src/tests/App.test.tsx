@@ -1,7 +1,7 @@
 import App from "../App";
 import { render, screen } from "@testing-library/react";
 import user from "@testing-library/user-event";
-
+import React from "react";
 test("Renders main page correctly", async () => {
   // SetUp
   render(<App />);
